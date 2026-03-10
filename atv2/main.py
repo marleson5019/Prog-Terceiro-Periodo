@@ -4,12 +4,12 @@ def main():
     qtd = int(input("Quantos números deseja armazenar? "))
     
     
-    lista = meu_modulo.armazenar_numeros(qtd)
+    lista = atv3.armazenar_numeros(qtd)
     
-    lista_ordenada = meu_modulo.ordenar_lista(lista)
+    lista_ordenada = atv3.ordenar_lista(lista)
     
     print("\nLista ordenada:")
-    meu_modulo.imprimir_lista(lista_ordenada)
+    atv3.imprimir_lista(lista_ordenada)
 
 
 if __name__ == "__main__":
